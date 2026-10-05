@@ -90,7 +90,7 @@ Produzido: $_produzido ✅
                       });
                     }
                   },
-                  child: Text('Calcular'),
+                  child: Text('Calcular', style: TextStyle(color: Colors.white, fontSize: 16),),
                 ),
               ),
               SizedBox(height: 24),
