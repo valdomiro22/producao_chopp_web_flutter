@@ -1,7 +1,7 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:gestao_producao_chopp/features/home/home_screen.dart';
 import 'package:go_router/go_router.dart';
 
+import '../features/home/screen/home_screen.dart';
 import 'app_routes_names.dart';
 
 class AppRoutes {
