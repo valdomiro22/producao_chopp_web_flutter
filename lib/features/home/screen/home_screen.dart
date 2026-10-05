@@ -19,11 +19,15 @@ class _HomeScreenState extends State<HomeScreen> {
   int _pendente = -1;
 
   void _copiarResultado() {
-    final texto =
-      '''
+    final texto = _pendente > 0
+? '''
+Programado: $_programado ✅
+Produzido: $_produzido ❌
+Pendente: $_pendente ❌
+'''
+: '''
 Programado: $_programado ✅
 Produzido: $_produzido ✅
-Pendente: $_pendente ✅
 ''';
 
     Clipboard.setData(ClipboardData(text: texto));
